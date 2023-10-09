@@ -13,7 +13,7 @@ public class CopyImage {
 		
 		FileOutputStream fos = new FileOutputStream("F:/abc/Sunset1.jpg");
 		fos.write(b);
-		System.out.println("file copied successfully");
+		System.out.println("image copied successfully");
 		
 
 	}
