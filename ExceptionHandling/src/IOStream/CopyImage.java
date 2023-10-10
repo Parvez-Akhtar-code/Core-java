@@ -11,7 +11,7 @@ public class CopyImage {
 		byte[] b = new byte[size];
 		fis.read(b);
 		
-		FileOutputStream fos = new FileOutputStream("F:/abc/Sunset2.jpg");
+		FileOutputStream fos = new FileOutputStream("F:/abc/Sunset1.jpg");
 		fos.write(b);
 		System.out.println("image copied successfully");
 		
